@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en" class="h-full">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1"
+    />
+    <meta
+      name="description"
+      content="Jointflows"
+    />
+    <title>Jointflows</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <script>
+      const global = globalThis;
+    </script>
+    <script src="https://unpkg.com/sunburst-chart@1.19.2/dist/sunburst-chart.min.js"></script>
+    <script>
+      (function (apiKey) {
+        (function (p, e, n, d, o) {
+          var v, w, x, y, z;
+          o = p[d] = p[d] || {};
+          o._q = o._q || [];
+          v = ['initialize', 'identify', 'updateOptions', 'pageLoad', 'track'];
+          for (w = 0, x = v.length; w < x; ++w)
+            (function (m) {
+              o[m] =
+                o[m] ||
+                function () {
+                  o._q[m === v[0] ? 'unshift' : 'push']([m].concat([].slice.call(arguments, 0)));
+                };
+            })(v[w]);
+          y = e.createElement(n);
+          y.async = !0;
+          y.src = 'https://cdn.pendo.io/agent/static/' + apiKey + '/pendo.js';
+          z = e.getElementsByTagName(n)[0];
+          z.parentNode.insertBefore(y, z);
+        })(window, document, 'script', 'pendo');
+      })('1cc99ca0-ef47-491a-4d8c-8d0e42f9df6e');
+    </script>
+    <script
+      type="module"
+      src="/src/index.jsx"
+    ></script>
+  </head>
+  <body class="text-sm h-full">
+    <div
+      id="loader"
+      class="center"
+    ></div>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root" class="h-full"></div>
+    <script>
+      document.onreadystatechange = function () {
+        if (document.readyState !== 'complete') {
+          document.querySelector('#loader').style.visibility = 'visible';
+        } else {
+          document.querySelector('#loader').style.display = 'none';
+        }
+      };
+    </script>
+  </body>
+</html>

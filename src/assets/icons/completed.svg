@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 14</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Milestones" transform="translate(-503.000000, -451.000000)">
+            <g id="Group-23" transform="translate(130.000000, 441.000000)">
+                <g id="Group-14" transform="translate(373.000000, 10.000000)">
+                    <rect id="Rectangle" fill="#3EDAB7" opacity="0.1" x="0" y="0" width="24" height="24" rx="4"></rect>
+                    <g id="Group-16" transform="translate(5.000000, 5.000000)">
+                        <rect id="Rectangle" fill="#FFFFFF" x="2.33333333" y="3.88888889" width="8.55555556" height="7"></rect>
+                        <path d="M7,14 C10.8659932,14 14,10.8659932 14,7 C14,3.13400675 10.8659932,0 7,0 C3.13400675,0 0,3.13400675 0,7 C0,10.8659932 3.13400675,14 7,14 Z M3.36636364,7.18454545 C3.61456929,6.93781226 4.01543071,6.93781226 4.26363636,7.18454545 L5.72727273,8.64818182 L9.41181818,4.96363636 C9.66430199,4.74741477 10.040669,4.76195219 10.275722,4.99700522 C10.5107751,5.23205825 10.5253125,5.60842528 10.3090909,5.86090909 L6.17272727,9.99727273 C5.92452162,10.2440059 5.5236602,10.2440059 5.27545455,9.99727273 L3.36636364,8.08818182 C3.24589195,7.96869398 3.17812834,7.80604207 3.17812834,7.63636364 C3.17812834,7.4666852 3.24589195,7.30403329 3.36636364,7.18454545 Z" id="Shape" fill="#3EDAB7" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

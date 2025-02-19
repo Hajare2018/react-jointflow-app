@@ -1,0 +1,200 @@
+.form-label {
+  margin-bottom: 5px;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  color: #999;
+}
+.form-control-input {
+  width: 100%;
+  padding: 8px;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 2px solid #aeaeae;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.25rem;
+  transition:
+    border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+  overflow: auto;
+}
+.form-control-disabled {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #aeaeae;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 2px solid #aeaeae;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.25rem;
+  transition:
+    border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+}
+.mb-3 {
+  margin-bottom: 16px;
+}
+.form-select {
+  display: block;
+  width: 100%;
+  padding: 8px 32px 8px 8px;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #212529;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 16px 12px;
+  border: 2px solid #aeaeae;
+  border-radius: 0.25rem;
+  transition:
+    border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+.textGray {
+  color: #999;
+}
+
+.font12 {
+  font-size: 12px;
+}
+
+.font14 {
+  font-size: 14px;
+}
+
+.font18 {
+  font-size: 16px;
+}
+
+.last-doc {
+  margin-right: 5px;
+  margin-left: 10px;
+}
+.mb-2 {
+  margin-bottom: 8px;
+}
+.mt-1 {
+  margin-top: 4px;
+}
+.ml-2 {
+  margin-left: 8px;
+}
+.ml-3 {
+  margin-left: 16px;
+}
+.footerBar {
+  position: absolute !important;
+  width: 100%;
+  background-color: #fff !important;
+  padding: 0px !important;
+  box-shadow: none !important;
+  background: transparent;
+}
+.taskWrap {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  position: relative;
+  justify-content: space-between;
+}
+
+.tabPadding > div {
+  padding: 0 10px;
+}
+
+.inner-div {
+  /* height: 90vh; */
+  overflow-y: auto;
+  flex-grow: 1;
+}
+
+@media only screen and (max-width: 599px) {
+  .inner-div {
+    height: calc(100vh - 210px) !important;
+  }
+}
+
+.inner-div input {
+  cursor: pointer;
+}
+.inner-div section:hover {
+  color: grey !important;
+}
+
+.taskWrap > div:nth-child(3) {
+  display: none;
+}
+
+.tab-panel > div > div {
+  height: 100%;
+}
+
+.alert > div {
+  align-items: center;
+  text-align: center;
+}
+.alert > div svg {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.textCenter > div {
+  justify-content: center;
+}
+
+/* .selectbox{margin: 0 0.1rem;} */
+.selectbox .form-select {
+  -webkit-appearance: auto;
+  appearance: auto;
+  color: #000000;
+}
+
+.style-assignee {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.button-wrapper > div {
+  margin: 0 3px;
+}
+
+.hide-scrollbar ::-webkit-scrollbar {
+  -ms-overflow-style: none;
+  display: none;
+}
+
+.tabPanelWrap .footerBar {
+  position: sticky;
+  bottom: 0;
+  background-color: #fff;
+  z-index: 9;
+}
+
+.react-datepicker-wrapper {
+  display: block;
+}

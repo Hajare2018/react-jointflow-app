@@ -1,0 +1,6 @@
+.selectbox{margin: 0 0.1rem;}
+.selectbox .form-select {
+    -webkit-appearance: auto;
+    appearance: auto;
+    color: #000;
+}

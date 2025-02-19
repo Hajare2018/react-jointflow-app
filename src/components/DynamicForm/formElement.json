@@ -1,0 +1,55 @@
+[
+    {
+        "fields": [
+            {
+                "field_id": "message_text",
+                "field_label": "Message",
+                "field_mandatory": "yes",
+                "field_placeholder": "Enter message",
+                "field_type": "text",
+                "field_value": "Hello world"
+            },
+            {
+                "field_id": "preferred_letter",
+                "field_label": "Preferred Letter",
+                "field_value": "Preferred-Letter",
+                "field_mandatory": "yes",
+                "field_options": [
+                    {
+                        "option_label": "A"
+                    },
+                    {
+                        "option_label": "B"
+                    }
+                ],
+                "field_type": "select"
+            },
+            {
+                "field_id": "contact",
+                "field_label": "Contact No.",
+                "field_mandatory": "yes",
+                "field_placeholder": "Enter contact no.",
+                "field_type": "text",
+                "field_value": ""
+            },
+            {
+                "field_id": "date_picker",
+                "field_label": "Date",
+                "field_type": "date",
+                "field_value": "11/12/2023"
+            },
+            {
+                "field_id": "active-1",
+                "field_label": "Active",
+                "field_type": "checkbox",
+                "field_value": "checked"
+            },
+            {
+                "field_id": "active-2",
+                "field_label": "Active 2",
+                "field_type": "checkbox",
+                "field_value": "checked"
+            }
+        ]
+    }
+]

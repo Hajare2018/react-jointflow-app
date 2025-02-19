@@ -1,0 +1,5 @@
+.selectbox .form-select {
+    -webkit-appearance: auto !important;
+    appearance: auto !important;
+    color: #000;
+}

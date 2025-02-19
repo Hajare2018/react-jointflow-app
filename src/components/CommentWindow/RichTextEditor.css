@@ -1,0 +1,50 @@
+.rdw-suggestion-dropdown {
+  min-width: 200px;
+  max-height: 125px;
+}
+
+.rdw-emoji-modal {
+  padding: 8px;
+  width: 21vh;
+  box-shadow: 3px 3px 5px #627daf;
+}
+
+.rdw-link-decorator-wrapper a {
+  color: blue;
+}
+
+.rdw-link-modal {
+  height: 260px;
+}
+
+.rdw-link-modal-label {
+  margin-bottom: 5px;
+  display: inline-block;
+  font-weight: 600;
+  color: #999;
+}
+
+.rdw-link-modal-input {
+  padding: 0.75rem;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: #fff;
+  background-clip: padding-box;
+  appearance: none;
+  border-radius: 0.25rem;
+  transition:
+    border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+}
+
+.rdw-link-modal-target-option {
+  display: flex;
+
+  input {
+    width: 20px;
+  }
+}
+
+.rdw-link-modal-buttonsection {
+  margin: 0 auto 15px;
+}

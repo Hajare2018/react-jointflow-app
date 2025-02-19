@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="18px" viewBox="0 0 14 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>bookmark</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Milestones" transform="translate(-33.000000, -319.000000)" fill="#95A0B8" fill-rule="nonzero">
+            <g id="Group-3" transform="translate(0.000000, 252.000000)">
+                <g id="bookmark" transform="translate(33.000000, 67.000000)">
+                    <path d="M13.3896797,3.85941797 L9.64058203,0.110320312 C9.57269531,0.0422226563 9.47886328,0 9.37501172,0 L1.50001172,0 C0.673101563,0 0,0.672714844 0,1.50001172 L0,16.5000234 C0,17.3272852 0.673101563,18 1.50001172,18 L12.0000234,18 C12.8268984,18 13.5,17.3272852 13.5,16.4999883 L13.5,4.12498828 C13.5,4.02113672 13.4577773,3.92730469 13.3896797,3.85941797 Z M10.5000117,3.75001172 C10.0861875,3.75001172 9.75002344,3.41346094 9.75002344,3.00002344 L9.75002344,1.28028516 L12.21975,3.75001172 L10.5000117,3.75001172 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

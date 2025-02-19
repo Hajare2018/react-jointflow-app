@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="29px" height="28px" viewBox="0 0 29 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 8</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Milestones" transform="translate(-1214.000000, -23.000000)">
+            <g id="Group-8" transform="translate(1214.000000, 23.000000)">
+                <path d="M9,28 C10.2375,28 11.25,26.9846154 11.25,25.7435897 L6.75,25.7435897 C6.75,26.9846154 7.75125,28 9,28 Z M15.75,21.2307692 L15.75,15.5897436 C15.75,12.1261538 13.905,9.22666667 10.6875,8.45948718 L10.6875,7.69230769 C10.6875,6.75589744 9.93375,6 9,6 C8.06625,6 7.3125,6.75589744 7.3125,7.69230769 L7.3125,8.45948718 C4.08375,9.22666667 2.25,12.1148718 2.25,15.5897436 L2.25,21.2307692 L0,23.4871795 L0,24.6153846 L18,24.6153846 L18,23.4871795 L15.75,21.2307692 Z" id="Shape" fill="#95A0B8" fill-rule="nonzero"></path>
+                <g id="Group-6" transform="translate(11.000000, 0.000000)">
+                    <circle id="Oval" fill="#EF4F91" cx="9" cy="9" r="9"></circle>
+                    <text id="3" font-family="Poppins-Medium, Poppins" font-size="10" font-weight="400" fill="#FFFFFF">
+                        <tspan x="6" y="12">3</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,6 @@
+.selectbox .form-select {
+    -webkit-appearance: auto;
+    appearance: auto;
+    color: #000
+}
+.flexbox-fix{ display: none;}

@@ -1,0 +1,11 @@
+.upload-btn{
+    display: flex;
+    background-color: rgb(98, 125, 175);
+    height: auto;
+    width: auto;
+    border-radius: 0.5rem;
+    color: rgb(255, 255, 255);
+    justify-content: space-between;
+    padding: 8px 10px;
+    align-items: center;
+}

@@ -1,0 +1,31 @@
+.verificationCodeContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+
+  --ReactInputVerificationCode-itemWidth: 40px;
+  --ReactInputVerificationCode-itemHeight: 48px;
+  --ReactInputVerificationCode-itemSpacing: 8px;
+
+  .ReactInputVerificationCode__item {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+
+    background: #36c6d9;
+    border: 1px solid rgba(28, 30, 60, 0.4);
+    border-radius: 4px;
+    box-shadow: none;
+  }
+
+  .ReactInputVerificationCode__item.is-active {
+    box-shadow: none;
+    border: 1px solid #36c6d9;
+  }
+}
+
+.verificationCodeContainer.isInvalid {
+  .ReactInputVerificationCode__item {
+    border-color: #EF6C65;
+  }
+}

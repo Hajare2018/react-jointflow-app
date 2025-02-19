@@ -1,0 +1,56 @@
+input, textarea {
+  background-color: transparent;
+  border: 0;
+  padding: 0.5rem;
+  border-radius: 3px;
+  /* font-size: 22px; */
+    /* font-weight: bold; */
+  width: 90%;
+  color: #161822;
+  /* border: 2px solid #161822; */
+}
+
+input:hover {
+  background-color: #f2f2f2; 
+  color: #161822;
+  /* cursor: pointer; */
+}
+
+input:focus {
+  /* border: 2px solid #161822;  */
+  color: #161822;
+  cursor: pointer;
+}
+
+.textarea {
+  margin-left: 40px;
+  resize: none;
+  overflow: hidden;
+  min-height: 40px;
+  max-height: 100px;
+  font-size: 14px;
+}
+
+.textarea:hover {
+  border: 2px solid #161822; 
+  color: #161822;
+  cursor: pointer;
+}
+
+textarea:focus {
+  outline: 5px auto Highlight; /* Firefox */
+  outline: 5px auto -webkit-focus-ring-color; /* Chrome, Safari */
+  border: 2px solid #161822; 
+  color: #161822;
+  cursor: pointer;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  margin: 8px;
+  width: 300px;
+  font-size: 22px;
+    /* font-weight: bold; */
+  color: #D8DEE9;
+}
